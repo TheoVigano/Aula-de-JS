@@ -13,9 +13,34 @@
         precolitro = 5.86;
         pagamento = 25;
         litro = pagamento / precolitro;
-        document.write("O cliente pagou R$"+pagamento+" para abastecer");
-        document.write("<br>Foi abastecido "+litro.toFixed(2)+"L");
+        document.write("<p>O cliente pagou R$"+pagamento+" para abastecer</p>");
+        document.write("<br><p>Foi abastecido "+litro.toFixed(2)+"L</p>");
         document.write("<br><a href='index.html'>Voltar</a>");
     </script>
 </body>
 </html>
+<style>
+    body{
+        background-color: rgb(34, 34, 34);
+        color: white;
+    }
+    h1{
+        color: rgb(189, 5, 5);
+        text-align: center;
+    }
+    p{
+        border: 2px solid white;
+        border-radius: 20px;
+        background-color: rgb(181, 202, 202);
+        color: black;
+        width: 400px;
+        height: 100px;
+        margin: 10px auto;
+        padding: 20px;
+        text-align: center;
+    }
+    a{
+        text-align: center;
+        font-size: 30px;
+    }
+</style>
